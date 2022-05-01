@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E25328C281F266300D9AC6E /* Phys440FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25328B281F266300D9AC6E /* Phys440FinalProjectApp.swift */; };
+		5E25328E281F266300D9AC6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25328D281F266300D9AC6E /* ContentView.swift */; };
+		5E253290281F266600D9AC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E25328F281F266600D9AC6E /* Assets.xcassets */; };
+		5E253293281F266600D9AC6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E253292281F266600D9AC6E /* Preview Assets.xcassets */; };
+		5E25329E281F266700D9AC6E /* Phys440FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25329D281F266700D9AC6E /* Phys440FinalProjectTests.swift */; };
+		5E2532A8281F266700D9AC6E /* Phys440FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532A7281F266700D9AC6E /* Phys440FinalProjectUITests.swift */; };
+		5E2532AA281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532A9281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E25329A281F266700D9AC6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E253280281F266300D9AC6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E253287281F266300D9AC6E;
+			remoteInfo = Phys440FinalProject;
+		};
+		5E2532A4281F266700D9AC6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E253280281F266300D9AC6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E253287281F266300D9AC6E;
+			remoteInfo = Phys440FinalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E253288281F266300D9AC6E /* Phys440FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phys440FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E25328B281F266300D9AC6E /* Phys440FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectApp.swift; sourceTree = "<group>"; };
+		5E25328D281F266300D9AC6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E25328F281F266600D9AC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E253292281F266600D9AC6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E253294281F266600D9AC6E /* Phys440FinalProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Phys440FinalProject.entitlements; sourceTree = "<group>"; };
+		5E253299281F266700D9AC6E /* Phys440FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Phys440FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E25329D281F266700D9AC6E /* Phys440FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectTests.swift; sourceTree = "<group>"; };
+		5E2532A3281F266700D9AC6E /* Phys440FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Phys440FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2532A7281F266700D9AC6E /* Phys440FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectUITests.swift; sourceTree = "<group>"; };
+		5E2532A9281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E253285281F266300D9AC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E253296281F266700D9AC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2532A0281F266700D9AC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E25327F281F266300D9AC6E = {
+			isa = PBXGroup;
+			children = (
+				5E25328A281F266300D9AC6E /* Phys440FinalProject */,
+				5E25329C281F266700D9AC6E /* Phys440FinalProjectTests */,
+				5E2532A6281F266700D9AC6E /* Phys440FinalProjectUITests */,
+				5E253289281F266300D9AC6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E253289281F266300D9AC6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E253288281F266300D9AC6E /* Phys440FinalProject.app */,
+				5E253299281F266700D9AC6E /* Phys440FinalProjectTests.xctest */,
+				5E2532A3281F266700D9AC6E /* Phys440FinalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E25328A281F266300D9AC6E /* Phys440FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				5E25328B281F266300D9AC6E /* Phys440FinalProjectApp.swift */,
+				5E25328D281F266300D9AC6E /* ContentView.swift */,
+				5E25328F281F266600D9AC6E /* Assets.xcassets */,
+				5E253294281F266600D9AC6E /* Phys440FinalProject.entitlements */,
+				5E253291281F266600D9AC6E /* Preview Content */,
+			);
+			path = Phys440FinalProject;
+			sourceTree = "<group>";
+		};
+		5E253291281F266600D9AC6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E253292281F266600D9AC6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E25329C281F266700D9AC6E /* Phys440FinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E25329D281F266700D9AC6E /* Phys440FinalProjectTests.swift */,
+			);
+			path = Phys440FinalProjectTests;
+			sourceTree = "<group>";
+		};
+		5E2532A6281F266700D9AC6E /* Phys440FinalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E2532A7281F266700D9AC6E /* Phys440FinalProjectUITests.swift */,
+				5E2532A9281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift */,
+			);
+			path = Phys440FinalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E253287281F266300D9AC6E /* Phys440FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2532AD281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProject" */;
+			buildPhases = (
+				5E253284281F266300D9AC6E /* Sources */,
+				5E253285281F266300D9AC6E /* Frameworks */,
+				5E253286281F266300D9AC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phys440FinalProject;
+			productName = Phys440FinalProject;
+			productReference = 5E253288281F266300D9AC6E /* Phys440FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E253298281F266700D9AC6E /* Phys440FinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2532B0281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProjectTests" */;
+			buildPhases = (
+				5E253295281F266700D9AC6E /* Sources */,
+				5E253296281F266700D9AC6E /* Frameworks */,
+				5E253297281F266700D9AC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E25329B281F266700D9AC6E /* PBXTargetDependency */,
+			);
+			name = Phys440FinalProjectTests;
+			productName = Phys440FinalProjectTests;
+			productReference = 5E253299281F266700D9AC6E /* Phys440FinalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E2532A2281F266700D9AC6E /* Phys440FinalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2532B3281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProjectUITests" */;
+			buildPhases = (
+				5E25329F281F266700D9AC6E /* Sources */,
+				5E2532A0281F266700D9AC6E /* Frameworks */,
+				5E2532A1281F266700D9AC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2532A5281F266700D9AC6E /* PBXTargetDependency */,
+			);
+			name = Phys440FinalProjectUITests;
+			productName = Phys440FinalProjectUITests;
+			productReference = 5E2532A3281F266700D9AC6E /* Phys440FinalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E253280281F266300D9AC6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5E253287281F266300D9AC6E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5E253298281F266700D9AC6E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5E253287281F266300D9AC6E;
+					};
+					5E2532A2281F266700D9AC6E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5E253287281F266300D9AC6E;
+					};
+				};
+			};
+			buildConfigurationList = 5E253283281F266300D9AC6E /* Build configuration list for PBXProject "Phys440FinalProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E25327F281F266300D9AC6E;
+			productRefGroup = 5E253289281F266300D9AC6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E253287281F266300D9AC6E /* Phys440FinalProject */,
+				5E253298281F266700D9AC6E /* Phys440FinalProjectTests */,
+				5E2532A2281F266700D9AC6E /* Phys440FinalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E253286281F266300D9AC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E253293281F266600D9AC6E /* Preview Assets.xcassets in Resources */,
+				5E253290281F266600D9AC6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E253297281F266700D9AC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2532A1281F266700D9AC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E253284281F266300D9AC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E25328E281F266300D9AC6E /* ContentView.swift in Sources */,
+				5E25328C281F266300D9AC6E /* Phys440FinalProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E253295281F266700D9AC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E25329E281F266700D9AC6E /* Phys440FinalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E25329F281F266700D9AC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2532AA281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift in Sources */,
+				5E2532A8281F266700D9AC6E /* Phys440FinalProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E25329B281F266700D9AC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E253287281F266300D9AC6E /* Phys440FinalProject */;
+			targetProxy = 5E25329A281F266700D9AC6E /* PBXContainerItemProxy */;
+		};
+		5E2532A5281F266700D9AC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E253287281F266300D9AC6E /* Phys440FinalProject */;
+			targetProxy = 5E2532A4281F266700D9AC6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E2532AB281F266700D9AC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E2532AC281F266700D9AC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E2532AE281F266700D9AC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Phys440FinalProject/Phys440FinalProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Phys440FinalProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E2532AF281F266700D9AC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Phys440FinalProject/Phys440FinalProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Phys440FinalProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E2532B1281F266700D9AC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phys440FinalProject.app/Contents/MacOS/Phys440FinalProject";
+			};
+			name = Debug;
+		};
+		5E2532B2281F266700D9AC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phys440FinalProject.app/Contents/MacOS/Phys440FinalProject";
+			};
+			name = Release;
+		};
+		5E2532B4281F266700D9AC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Phys440FinalProject;
+			};
+			name = Debug;
+		};
+		5E2532B5281F266700D9AC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440FinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Phys440FinalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E253283281F266300D9AC6E /* Build configuration list for PBXProject "Phys440FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2532AB281F266700D9AC6E /* Debug */,
+				5E2532AC281F266700D9AC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2532AD281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2532AE281F266700D9AC6E /* Debug */,
+				5E2532AF281F266700D9AC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2532B0281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2532B1281F266700D9AC6E /* Debug */,
+				5E2532B2281F266700D9AC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2532B3281F266700D9AC6E /* Build configuration list for PBXNativeTarget "Phys440FinalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2532B4281F266700D9AC6E /* Debug */,
+				5E2532B5281F266700D9AC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E253280281F266300D9AC6E /* Project object */;
+}
