@@ -14,6 +14,21 @@
 		5E25329E281F266700D9AC6E /* Phys440FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25329D281F266700D9AC6E /* Phys440FinalProjectTests.swift */; };
 		5E2532A8281F266700D9AC6E /* Phys440FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532A7281F266700D9AC6E /* Phys440FinalProjectUITests.swift */; };
 		5E2532AA281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532A9281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift */; };
+		5E2532C0281F517100D9AC6E /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532B6281F517100D9AC6E /* ChangingPlotParameters.swift */; };
+		5E2532C1281F517100D9AC6E /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532B7281F517100D9AC6E /* CorePlot.swift */; };
+		5E2532C2281F517100D9AC6E /* ContentViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532B8281F517100D9AC6E /* ContentViewText.swift */; };
+		5E2532C3281F517100D9AC6E /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532B9281F517100D9AC6E /* PlotDataClass.swift */; };
+		5E2532C4281F517100D9AC6E /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532BA281F517100D9AC6E /* TextExportDocument.swift */; };
+		5E2532C5281F517100D9AC6E /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532BB281F517100D9AC6E /* operators.swift */; };
+		5E2532C6281F517100D9AC6E /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532BC281F517100D9AC6E /* CalculatePlotData.swift */; };
+		5E2532C7281F517100D9AC6E /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532BD281F517100D9AC6E /* TextView.swift */; };
+		5E2532CB281F51E000D9AC6E /* Ramberg-Osgood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532CA281F51E000D9AC6E /* Ramberg-Osgood.swift */; };
+		5E2532CD2821BC0000D9AC6E /* TensileTestDataSteel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E2532CC2821BC0000D9AC6E /* TensileTestDataSteel.csv */; };
+		5E2532CF2821BE2A00D9AC6E /* TensileTestDataCompactBone.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5E2532CE2821BE2A00D9AC6E /* TensileTestDataCompactBone.csv */; };
+		5E2532D22821C29000D9AC6E /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 5E2532D12821C29000D9AC6E /* CorePlot */; };
+		5E2532D42822311000D9AC6E /* TensileTestGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532D32822311000D9AC6E /* TensileTestGraphic.swift */; };
+		5E2532D62824AD1100D9AC6E /* YoungsModulus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2532D52824AD1100D9AC6E /* YoungsModulus.swift */; };
+		5EAA734F2825BD29000C3905 /* TensileTestDataGlass.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA734E2825BD29000C3905 /* TensileTestDataGlass.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,20 @@
 		5E2532A3281F266700D9AC6E /* Phys440FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Phys440FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2532A7281F266700D9AC6E /* Phys440FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectUITests.swift; sourceTree = "<group>"; };
 		5E2532A9281F266700D9AC6E /* Phys440FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E2532B6281F517100D9AC6E /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		5E2532B7281F517100D9AC6E /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		5E2532B8281F517100D9AC6E /* ContentViewText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewText.swift; sourceTree = "<group>"; };
+		5E2532B9281F517100D9AC6E /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		5E2532BA281F517100D9AC6E /* TextExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		5E2532BB281F517100D9AC6E /* operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		5E2532BC281F517100D9AC6E /* CalculatePlotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		5E2532BD281F517100D9AC6E /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		5E2532CA281F51E000D9AC6E /* Ramberg-Osgood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ramberg-Osgood.swift"; sourceTree = "<group>"; };
+		5E2532CC2821BC0000D9AC6E /* TensileTestDataSteel.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TensileTestDataSteel.csv; path = ../../../Downloads/TensileTestDataSteel.csv; sourceTree = "<group>"; };
+		5E2532CE2821BE2A00D9AC6E /* TensileTestDataCompactBone.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TensileTestDataCompactBone.csv; path = ../../../Downloads/TensileTestDataCompactBone.csv; sourceTree = "<group>"; };
+		5E2532D32822311000D9AC6E /* TensileTestGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensileTestGraphic.swift; sourceTree = "<group>"; };
+		5E2532D52824AD1100D9AC6E /* YoungsModulus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoungsModulus.swift; sourceTree = "<group>"; };
+		5EAA734E2825BD29000C3905 /* TensileTestDataGlass.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TensileTestDataGlass.csv; path = ../../../Downloads/TensileTestDataGlass.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2532D22821C29000D9AC6E /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +130,20 @@
 				5E25328F281F266600D9AC6E /* Assets.xcassets */,
 				5E253294281F266600D9AC6E /* Phys440FinalProject.entitlements */,
 				5E253291281F266600D9AC6E /* Preview Content */,
+				5E2532B6281F517100D9AC6E /* ChangingPlotParameters.swift */,
+				5E2532B7281F517100D9AC6E /* CorePlot.swift */,
+				5E2532B8281F517100D9AC6E /* ContentViewText.swift */,
+				5E2532B9281F517100D9AC6E /* PlotDataClass.swift */,
+				5E2532BA281F517100D9AC6E /* TextExportDocument.swift */,
+				5E2532BB281F517100D9AC6E /* operators.swift */,
+				5E2532BC281F517100D9AC6E /* CalculatePlotData.swift */,
+				5EAA734E2825BD29000C3905 /* TensileTestDataGlass.csv */,
+				5E2532BD281F517100D9AC6E /* TextView.swift */,
+				5E2532CE2821BE2A00D9AC6E /* TensileTestDataCompactBone.csv */,
+				5E2532CC2821BC0000D9AC6E /* TensileTestDataSteel.csv */,
+				5E2532CA281F51E000D9AC6E /* Ramberg-Osgood.swift */,
+				5E2532D32822311000D9AC6E /* TensileTestGraphic.swift */,
+				5E2532D52824AD1100D9AC6E /* YoungsModulus.swift */,
 			);
 			path = Phys440FinalProject;
 			sourceTree = "<group>";
@@ -145,6 +189,9 @@
 			dependencies = (
 			);
 			name = Phys440FinalProject;
+			packageProductDependencies = (
+				5E2532D12821C29000D9AC6E /* CorePlot */,
+			);
 			productName = Phys440FinalProject;
 			productReference = 5E253288281F266300D9AC6E /* Phys440FinalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 5E25327F281F266300D9AC6E;
+			packageReferences = (
+				5E2532D02821C29000D9AC6E /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 5E253289281F266300D9AC6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2532CD2821BC0000D9AC6E /* TensileTestDataSteel.csv in Resources */,
+				5EAA734F2825BD29000C3905 /* TensileTestDataGlass.csv in Resources */,
+				5E2532CF2821BE2A00D9AC6E /* TensileTestDataCompactBone.csv in Resources */,
 				5E253293281F266600D9AC6E /* Preview Assets.xcassets in Resources */,
 				5E253290281F266600D9AC6E /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +313,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E25328E281F266300D9AC6E /* ContentView.swift in Sources */,
+				5E2532C6281F517100D9AC6E /* CalculatePlotData.swift in Sources */,
+				5E2532C5281F517100D9AC6E /* operators.swift in Sources */,
+				5E2532CB281F51E000D9AC6E /* Ramberg-Osgood.swift in Sources */,
+				5E2532C4281F517100D9AC6E /* TextExportDocument.swift in Sources */,
+				5E2532D42822311000D9AC6E /* TensileTestGraphic.swift in Sources */,
+				5E2532C3281F517100D9AC6E /* PlotDataClass.swift in Sources */,
+				5E2532C1281F517100D9AC6E /* CorePlot.swift in Sources */,
 				5E25328C281F266300D9AC6E /* Phys440FinalProjectApp.swift in Sources */,
+				5E2532D62824AD1100D9AC6E /* YoungsModulus.swift in Sources */,
+				5E2532C0281F517100D9AC6E /* ChangingPlotParameters.swift in Sources */,
+				5E2532C2281F517100D9AC6E /* ContentViewText.swift in Sources */,
+				5E2532C7281F517100D9AC6E /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E2532D02821C29000D9AC6E /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E2532D12821C29000D9AC6E /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E2532D02821C29000D9AC6E /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E253280281F266300D9AC6E /* Project object */;
 }
